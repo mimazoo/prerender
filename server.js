@@ -4,7 +4,7 @@ var prerender = require('./lib');
 var server = prerender({
    //pageDoneCheckInterval: 500,
    //pageLoadTimeout: 20000,
-   waitAfterLastRequest: 5000
+   waitAfterLastRequest: 2000
 });
 
 server.use(prerender.sendPrerenderHeader());
